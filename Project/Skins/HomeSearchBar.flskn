@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultSkin
   Version="2"
   SkinType="Component"
@@ -26,13 +26,21 @@
           <Property
             Name="Height">40px</Property>
           <Property
-            Name="BorderTop">solid 4px #000000</Property>
+            Name="BorderTop">solid 0px #000000</Property>
           <Property
-            Name="BorderRight">solid 4px #000000</Property>
+            Name="BorderRight">solid 0px #000000</Property>
           <Property
-            Name="BorderBottom">solid 4px #000000</Property>
+            Name="BorderBottom">solid 0px #000000</Property>
           <Property
-            Name="BorderLeft">solid 4px #000000</Property>
+            Name="BorderLeft">solid 0px #000000</Property>
+          <Property
+            Name="BorderTopLeftRadius">10px</Property>
+          <Property
+            Name="BorderTopRightRadius">10px</Property>
+          <Property
+            Name="BorderBottomRightRadius">10px</Property>
+          <Property
+            Name="BorderBottomLeftRadius">10px</Property>
         </Properties>
       </Style>
       <Medium
@@ -45,6 +53,14 @@
           </Properties>
         </Style>
       </Medium>
+      <Style
+        Name="Search Submit Button">
+        <Properties>
+          <Property
+            Name="BackgroundColor">#ffa500</Property>
+        </Properties>
+      </Style>
     </Styles>
   </Stylesheet>
+  <Strings />
 </CatapultSkin>
